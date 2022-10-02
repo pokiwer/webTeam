@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,300&display=swap');
+.header
+{
+    width: 100vw;
+    height: 350px;
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    display: grid;
+    justify-content: center;
+}
+.header h1
+{
+    color: #EF4366;
+    font-size: 80px;
+    margin: 0 auto;
+}
+.header h2
+{
+    color: #103952;
+    font-size: 50px;
+    margin: 0 auto;
+}
+.header span
+{
+    font-size: 30px;
+    margin: 0 auto;
+}
+.container
+{
+    width:900px;
+    height: auto;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+}
+.container-member
+{
+    width: 100%;
+    height: 350px;
+    position: relative;
+    margin-bottom: 50px;
+}
+.picture
+{
+    width: 350px;
+    height: 100%;
+    border-radius: 50%;
+    position: absolute;
+}
+.content
+{
+    width: 550px;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    box-sizing: border-box;
+    padding: 50px;
+}
+.content span
+{
+    line-height: 30px;
+}
+.content h1
+{
+    color: #6E00FD;
+
+}
+.content h2
+{
+    color: #EF4366;
+}
+.picture1,.picture2,.picture3,.picture4
+{
+    position: absolute;
+    width: 350px;
+    height: 100%;
+    border-radius: 50%;    
+    box-sizing: border-box;
+    background-size: contain;
+}
+.picture3{
+    background-size: 340px 100%;
+}
+.picture4{
+    background-size: 400px 100%;
+}
+.picture1
+{
+    background-image: url("image3.jpg");
+}
+.picture2
+{
+    background-image: url("image1.png");
+}
+.picture3{
+    background-image: url("image2.jpg");
+}
+.picture4
+{
+    background-image: url("image4.png");
+}
+.container button:hover
+{
+    background-color: #4caf4f8e;
+    box-shadow: 2px 5px rgb(77, 76, 76);
+    transform: translateY(-5px);
+}
+.container button:visited
+{
+    background-color: #4caf4f92;
+}
+.container button
+{
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 15px;
+    margin-top: 10px;
+}
